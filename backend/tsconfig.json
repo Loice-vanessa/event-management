@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "commonjs",
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"allowJs": true,
+		"checkJs": false,
+		"outDir": "build",
+		"rootDir": "src",
+		"noImplicitAny": false,
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"inlineSourceMap": true,
+		"resolveJsonModule": true,
+		"declaration": false,
+		"strict": true
+	},
+	"include": ["prisma","src"],
+	"exclude": ["node_modules",]
+}
